@@ -11,7 +11,7 @@ router.post('/blogpost/:postId', async (req, res) => {
 
     if (!req.headers.authorization) {
         res.status(400).send({
-            ereorMessage: '로그인 기능이 필요합니다.',
+            ereorMessage: '로그인 기능이 필요합니다.111',
         });
         return;
     } else {
